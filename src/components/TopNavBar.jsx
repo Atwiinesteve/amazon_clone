@@ -6,7 +6,7 @@ import { BsCart3 } from "react-icons/bs";
 export default function TopNavBar() {
 	return (
 		<React.Fragment>
-			<nav className="bg-black flex items-center justify-around w-[100vw] h-auto font-instrument">
+			<nav className="bg-black flex items-center justify-around w-[100vw] h-[70px] font-instrument">
 				<div id="logo">
 					<img
 						className="w-[140px] h-[50px] object-cover"
@@ -28,7 +28,7 @@ export default function TopNavBar() {
 					</div>
 				</div>
 				<div id="input" className="flex flex-row items-center justify-center">
-					<select className="pt-2 pb-2 pl-2 pr-2 w-auto h-auto flex items-center font-instrument capitalize text-[13px] border-r-1 border-gray-400 outline-none cursor-pointer tracking-tighter bg-gray-100 rounded-l-sm">
+					<select className="pt-2 pb-2 pl-2 pr-2 w-auto h-auto flex items-center font-instrument capitalize text-[13px] border-r-1 border-gray-400 outline-none cursor-pointer tracking-tighter bg-gray-200 rounded-l-sm">
 						<option value="all">all departments</option>
 					</select>
 					<input
