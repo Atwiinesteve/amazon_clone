@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Gaming() {
   return (
 		<React.Fragment>
-			<div className="w-[350px] h-[450px] flex flex-col items-left justify-start bg-white p-1">
+			<div className="w-[350px] h-[470px] flex flex-col items-left justify-start bg-white p-1">
 				<div className="mt-2 mb-4">
 					<h2 className="font-instrument font-bold capitalize text-[1.4rem]">
 						Gaming Accesories
@@ -54,7 +54,7 @@ export default function Gaming() {
 				</div>
 				<Link
 					to={"/see-more"}
-					className=" text-green-500 underline-none mt-3 cursor-pointer">
+					className=" text-green-500 underline-none mt-3 cursor-pointer ml-7">
 					see more
 				</Link>
 			</div>
