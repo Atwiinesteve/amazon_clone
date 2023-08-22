@@ -5,7 +5,7 @@ export default function HeaderWithCarousel() {
 	return (
 		<React.Fragment>
 			<div className="flex items-center justify-around">
-				<Carousel autoplay wrapAround withoutControls>
+				<Carousel autoplay wrapAround withoutControls className="-z-20">
 					<>
 						<div className="flex flex-row items-center justify-around bg-gradient-to-b from-indigo-200 pt-10">
 							<div>
