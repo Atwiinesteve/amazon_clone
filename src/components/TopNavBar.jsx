@@ -6,7 +6,7 @@ import { BsCart3 } from "react-icons/bs";
 export default function TopNavBar() {
 	return (
 		<React.Fragment>
-			<nav className="bg-black flex items-center justify-around w-[100vw] h-[70px] font-instrument">
+			<nav className="bg-black flex items-center justify-around w-full h-[70px] font-instrument">
 				<div id="logo">
 					<img
 						className="w-[140px] h-[50px] object-cover"

@@ -6,6 +6,10 @@ import HomeAndKitchen from "../components/Home&Kitchen";
 import Toys from "../components/Toys";
 import Gaming from "../components/Gaming";
 import SmallForm from "../components/SmallForm";
+import School from "../components/School";
+import Electronics from "../components/Electronics";
+import HealthAndPersonalCare from "../components/ItemCard";
+import BeautyPicks from "../components/BeautyPicks";
 
 export default function Home() {
 	return (
@@ -27,6 +31,12 @@ export default function Home() {
 							alt=""
 						/>
 					</div>
+				</div>
+				<div className="flex flex-row items-center justify-center gap-3">
+					<School />
+					<Electronics />
+					<HealthAndPersonalCare />
+					<BeautyPicks />
 				</div>
 			</main>
 		</React.Fragment>

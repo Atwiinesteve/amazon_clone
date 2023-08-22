@@ -1,20 +1,20 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-export default function School() {
-  return (
+export default function BeautyPicks() {
+	return (
 		<React.Fragment>
 			<div className="w-[350px] h-[450px] flex flex-col items-left justify-start bg-white p-2">
 				<div className="mt-2 mb-4">
 					<h2 className="font-instrument font-bold capitalize text-[1.4rem]">
-						Shop school essentials
+						Beauty Picks
 					</h2>
 				</div>
 				<div className="flex flex-wrap items-left justify-center">
 					<img
 						className="pl-3 pr-3 object-cover w-full h-[350px]"
 						src={
-							"https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2022/BTS/Fuji_dash_BTS_1X._SY304_CB630084689_.jpg"
+							"https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_1x._SY304_CB432774351_.jpg"
 						}
 						alt=""
 					/>
