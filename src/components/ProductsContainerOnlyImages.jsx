@@ -1,13 +1,13 @@
 import React from "react";
 import ImageItem from "./ImageItem";
 
-export default function ProductsContainerOnlyImages() {
+export default function ProductsContainerOnlyImages({ heading }) {
 	return (
 		<React.Fragment>
 			<div className="flex flex-col items-start justify-center gap-3 mb-5 bg-white w-[78%] p-5">
 				<div className="flex items-end justify-end m-2">
 					<h4 className="font-bold text-xl text-gray-700">
-						Popular products in Beauty internationally
+						{heading}
 					</h4>
 				</div>
 				<div className="flex items-center justify-center w-[100%]">

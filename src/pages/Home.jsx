@@ -11,6 +11,11 @@ import ProductsContainer from "../components/ProductsContainer";
 import ProductsContainerOnlyImages from "../components/ProductsContainerOnlyImages";
 import CardParcel1 from "../components/CardParcel1";
 import CardParcel2 from "../components/CardParcel2";
+import PCImagesOnly from "../components/PCImagesOnly";
+import KitchenOnlyImages from "../components/KitchenOnlyImages";
+import Tools from "../components/Tools";
+import Spring from "../components/Spring";
+import EReaders from "../components/EReaders";
 
 export default function Home() {
 	return (
@@ -27,8 +32,18 @@ export default function Home() {
 					<BeautyPicks />
 				</div>
 				<ProductsContainer />
-				<ProductsContainerOnlyImages />
+				<ProductsContainerOnlyImages
+					heading={"Popular products in Beauty internationally"}
+				/>
+				<PCImagesOnly heading={"Popular products in PC internationally"} />
 				<CardParcel2 />
+				<KitchenOnlyImages heading={"International top sellers in Kitchen"} />
+				<div className="flex flex-row items-center justify-center gap-3 mb-5">
+					<Tools />
+					<Spring />
+					<EReaders />
+					<BeautyPicks />
+				</div>
 			</main>
 		</React.Fragment>
 	);
