@@ -19,6 +19,7 @@ import EReaders from "../components/EReaders";
 import PersonalisedRecommendations from "../components/PersonalisedRecommendatins";
 import BackToTopBtn from "../components/BactToTopBtn";
 import UpperFooter from "../components/UpperFooter";
+import MiddleFooter from "../components/MiddleFooter";
 
 export default function Home() {
 	return (
@@ -51,6 +52,7 @@ export default function Home() {
 			</main>
 			<BackToTopBtn />
 			<UpperFooter />
+			<MiddleFooter />
 		</React.Fragment>
 	);
 }
