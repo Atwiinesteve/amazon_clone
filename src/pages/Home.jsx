@@ -17,6 +17,7 @@ import Tools from "../components/Tools";
 import Spring from "../components/Spring";
 import EReaders from "../components/EReaders";
 import PersonalisedRecommendations from "../components/PersonalisedRecommendatins";
+import BackToTopBtn from "../components/BactToTopBtn";
 
 export default function Home() {
 	return (
@@ -47,6 +48,7 @@ export default function Home() {
 				</div>
 				<PersonalisedRecommendations />
 			</main>
+			<BackToTopBtn />
 		</React.Fragment>
 	);
 }
