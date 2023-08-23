@@ -8,7 +8,7 @@ export default function FooterElements({heading, links=[]}) {
             <h4 className='text-white font-bold text-md font-poppins mb-4'>{heading}</h4>
             {links.map(link => (
                 <div key={link.id} className='flex flex-col'>
-                    <Link className='text-white font-poppins mt-1 text-sm hover:underline font-light' to={`/${link}`}>{link}</Link>
+                    <Link key={link.id} className='text-white font-poppins mt-1 text-sm hover:underline font-light' to={`/${link}`}>{link}</Link>
                 </div>
             ))}
         </div>

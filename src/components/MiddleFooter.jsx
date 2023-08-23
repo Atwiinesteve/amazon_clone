@@ -4,7 +4,7 @@ import { BsGlobe2 } from "react-icons/bs";
 export default function MiddleFooter() {
 	return (
 		<React.Fragment>
-			<div className="w-[100vw] h-[100px] bg-gray-700 flex items-center justify-center flex-wrap gap-[3rem] font-poppins border border-t-slate-500">
+			<div className="w-[100vw] h-[100px] bg-gray-700 flex items-center justify-center flex-wrap gap-[3rem] font-poppins border border-t-slate-500 border-b-0 border-r-0 border-l-0">
 				<img
 					className="w-[80px] h-[80px] object-contain "
 					src={"https://pngimg.com/uploads/amazon/amazon_PNG11.png"}

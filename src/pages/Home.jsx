@@ -20,6 +20,7 @@ import PersonalisedRecommendations from "../components/PersonalisedRecommendatin
 import BackToTopBtn from "../components/BactToTopBtn";
 import UpperFooter from "../components/UpperFooter";
 import MiddleFooter from "../components/MiddleFooter";
+import BottomFooter from "../components/BottomFooter";
 
 export default function Home() {
 	return (
@@ -53,6 +54,7 @@ export default function Home() {
 			<BackToTopBtn />
 			<UpperFooter />
 			<MiddleFooter />
+			<BottomFooter />
 		</React.Fragment>
 	);
 }
