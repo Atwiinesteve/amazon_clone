@@ -16,6 +16,7 @@ import KitchenOnlyImages from "../components/KitchenOnlyImages";
 import Tools from "../components/Tools";
 import Spring from "../components/Spring";
 import EReaders from "../components/EReaders";
+import PersonalisedRecommendations from "../components/PersonalisedRecommendatins";
 
 export default function Home() {
 	return (
@@ -44,6 +45,7 @@ export default function Home() {
 					<EReaders />
 					<BeautyPicks />
 				</div>
+				<PersonalisedRecommendations />
 			</main>
 		</React.Fragment>
 	);
