@@ -18,6 +18,7 @@ import Spring from "../components/Spring";
 import EReaders from "../components/EReaders";
 import PersonalisedRecommendations from "../components/PersonalisedRecommendatins";
 import BackToTopBtn from "../components/BactToTopBtn";
+import UpperFooter from "../components/UpperFooter";
 
 export default function Home() {
 	return (
@@ -49,6 +50,7 @@ export default function Home() {
 				<PersonalisedRecommendations />
 			</main>
 			<BackToTopBtn />
+			<UpperFooter />
 		</React.Fragment>
 	);
 }
