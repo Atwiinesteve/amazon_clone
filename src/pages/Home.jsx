@@ -49,8 +49,8 @@ export default function Home() {
 					<EReaders />
 					<BeautyPicks />
 				</div>
-				<PersonalisedRecommendations />
 			</main>
+			<PersonalisedRecommendations />
 			<BackToTopBtn />
 			<UpperFooter />
 			<MiddleFooter />
